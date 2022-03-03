@@ -72,7 +72,7 @@ namespace ACibao
             .SetIsOriginAllowed(origin => true)
             .AllowCredentials());
 
-            //app.UseAuthentication();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

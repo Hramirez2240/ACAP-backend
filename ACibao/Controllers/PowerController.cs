@@ -1,4 +1,5 @@
 ﻿using ACibao.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -16,6 +17,7 @@ namespace ACibao.Controllers
             _getpowerinfo = getpowerinfo;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -24,6 +26,7 @@ namespace ACibao.Controllers
             return Ok(result);
         }
 
+        [Authorize]
         [HttpGet("[action]/{cedula}")]
         public async Task<IActionResult> Get(string cedula)
         {
