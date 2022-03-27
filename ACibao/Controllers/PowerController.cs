@@ -34,11 +34,5 @@ namespace ACibao.Controllers
 
             return Ok(result);
         }
-
-        /*[HttpGet("Current")]
-        public async Task<IActionResult> GetCurrentUser()
-        {
-
-        }*/
     }
 }

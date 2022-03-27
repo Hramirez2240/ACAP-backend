@@ -14,7 +14,6 @@ namespace ACibao.Context
         public DbSet<Itemdatapage> itemdatapage { get; set; }
         public DbSet<Physicalplatter> physicalplatter { get; set; }
         public DbSet<Powerinfo> powerinfo { get; set; }
-        public DbSet<UserAd> userAds { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

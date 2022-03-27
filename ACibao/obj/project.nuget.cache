@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DN0PXf0tsoR0PexOqmuHj/8ikU0QyoPvF9jfZWEFoaPD2XTV8byFsbQeoFcbOeTgUqwlLG8Li8gWcMUoSUx2PQ==",
+  "dgSpecHash": "n7zSoNX4W/mQEe1RdP54KczRqjK6SAW5Po6cmCjwkJ37Kfua/Dkr5LPGunwsdUoW1ZgHjY34iF717vjU6FMdBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hrami\\Desktop\\WorkShop - Solvex\\ACibao\\ACibao\\ACibao.csproj",
+  "projectFilePath": "C:\\Users\\hrami\\Desktop\\Solvex\\WorkShop - Solvex\\ACibao\\ACibao\\ACibao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hrami\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\hrami\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
